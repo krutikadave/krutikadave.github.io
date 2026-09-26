@@ -2,12 +2,35 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+# description: A growing collection of your cool projects.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 1
+display_categories:
+  - work
+  # - fun # Re-enable this category when you have projects to add.
 horizontal: false
 ---
+
+<style>
+  /* Keep the navbar title, but hide the duplicate Projects heading on this page. */
+  .post-header {
+    display: none;
+  }
+
+  /* Show smaller project cards in four columns on tablet and desktop screens. */
+  @media (min-width: 768px) {
+    .projects .row > .col {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+  }
+
+  /* Reduce titles shown on project thumbnail cards. */
+  .projects .card .card-title {
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+</style>
 
 <!-- pages/projects.md -->
 <div class="projects">

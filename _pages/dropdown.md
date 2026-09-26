@@ -1,8 +1,8 @@
 ---
 layout: page
 title: submenus
-nav: true
-nav_order: 8
+# nav: true # Keep this dropdown available, but hide it from the top navigation for now.
+# nav_order: 8
 dropdown: true
 children:
   - title: bookshelf

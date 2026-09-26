@@ -1,10 +1,12 @@
 ---
 layout: page
 title: project 6
-description: a project with no image
+description: another without an image
 img:
-importance: 4
+importance: 6
 category: fun
+# Keep this sample project for future reference, but do not publish it yet.
+published: false
 ---
 
 Every project has a beautiful feature showcase page.
